@@ -1,0 +1,110 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Main Section: Introduction */
+.main-section {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-section h1 {
+    font-size: 2.5rem;
+    color: #0066cc;
+}
+
+.main-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #004d99;
+}
+
+/* Discord Section */
+.discord-section {
+    background-color: #e6f7ff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.discord-btn {
+    background-color: #7289da;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.discord-btn:hover {
+    background-color: #5d6c8b;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    font-size: 14px;
+    color: #777;
+    margin-top: 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
